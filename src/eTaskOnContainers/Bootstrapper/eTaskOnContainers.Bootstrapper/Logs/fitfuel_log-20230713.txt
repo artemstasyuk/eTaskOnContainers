@@ -1,0 +1,6 @@
+[16:21:10 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[16:21:10 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[21:35:53 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[21:37:29 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[21:39:33 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[21:39:34 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

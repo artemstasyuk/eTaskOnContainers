@@ -1,0 +1,38 @@
+[16:52:29 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\amayweather\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[16:55:29 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\amayweather\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[16:56:32 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\amayweather\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[17:03:24 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Information] User profile is available. Using '"C:\Users\amayweather\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[17:03:26 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: AuthDbContext
+[17:03:27 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[17:03:27 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[17:03:27 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[17:03:27 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[17:03:27 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[17:03:27 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger - -
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger - - - 301 0 - 94.2263ms
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 98.1924ms
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - -
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - -
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - -
+[17:03:28 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - - - 200 144929 text/css 54.0377ms
+[17:03:28 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 80.7821ms
+[17:03:28 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 128.7912ms
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - -
+[17:03:28 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - - - 200 628 image/png 2.6013ms
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[17:03:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.9618ms
+[17:03:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/connect/token - 0
+[17:03:38 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[17:03:38 OpenIddict.Server.OpenIddictServerDispatcher [Information] The request URI matched a server endpoint: Token.
+[17:03:38 OpenIddict.Server.OpenIddictServerDispatcher [Information] The response was successfully returned as a JSON document: "{
+  \"error\": \"invalid_request\",
+  \"error_description\": \"This server only accepts HTTPS requests.\",
+  \"error_uri\": \"https://documentation.openiddict.com/errors/ID2083\"
+}".
+[17:03:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/connect/token - 0 - 400 172 application/json;charset=UTF-8 166.6936ms

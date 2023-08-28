@@ -1,0 +1,314 @@
+[13:48:38 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[13:48:39 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[13:49:40 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[13:49:41 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[13:49:42 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[13:49:42 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:49:42 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:49:42 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[13:49:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[13:49:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 145.3224ms
+[13:49:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[13:49:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.2341ms
+[13:50:28 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[13:50:29 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[13:50:29 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[13:50:29 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:50:29 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:50:29 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[13:50:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[13:50:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 119.1511ms
+[13:50:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[13:50:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.5930ms
+[13:51:07 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[13:51:07 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[13:51:08 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[13:51:08 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:51:08 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:51:08 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[13:51:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[13:51:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 108.7669ms
+[13:51:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[13:51:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 168.0578ms
+[13:56:31 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[13:56:31 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[13:56:32 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[13:56:32 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:56:32 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:56:32 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[13:56:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[13:56:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 116.6307ms
+[13:56:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[13:56:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.1918ms
+[14:07:54 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[14:07:55 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[14:07:55 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[14:07:55 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[14:07:55 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[14:07:55 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[14:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[14:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 118.6523ms
+[14:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[14:07:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.9772ms
+[14:10:34 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[14:10:34 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[14:10:35 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[14:10:35 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[14:10:35 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[14:10:35 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[14:10:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[14:10:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 112.3746ms
+[14:10:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[14:10:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.6257ms
+[14:10:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36
+[14:10:55 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[14:10:55 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[14:10:55 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanRequest)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[14:10:55 Microsoft.EntityFrameworkCore.Database.Command [Error] Failed executing DbCommand ("32"ms) [Parameters=["@__name_0='string'"], CommandType='Text', CommandTimeout='30']"
+""SELECT w.\"Id\", w.\"Level\", w.\"Name\"
+FROM workouts.\"WorkoutPlans\" AS w
+WHERE w.\"Name\" = @__name_0
+LIMIT 1"
+[14:10:55 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"Fitfuel.Workouts.Infrastructure.Persistence.WorkoutsDbContext"'."
+""Npgsql.PostgresException (0x80004005): 42P01: relation \"workouts.WorkoutPlans\" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation \"workouts.WorkoutPlans\" does not exist
+    Position: 42
+    File: parse_relation.c
+    Line: 1371
+    Routine: parserOpenTable"
+Npgsql.PostgresException (0x80004005): 42P01: relation "workouts.WorkoutPlans" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "workouts.WorkoutPlans" does not exist
+    Position: 42
+    File: parse_relation.c
+    Line: 1371
+    Routine: parserOpenTable
+[14:10:55 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 684.0232ms
+[14:10:55 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[14:10:55 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "workouts.WorkoutPlans" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Ardalis.Specification.EntityFrameworkCore.RepositoryBase`1.FirstOrDefaultAsync(ISpecification`1 specification, CancellationToken cancellationToken)
+   at Fitfuel.Workouts.Application.Services.WorkoutPlanService.CreateAsync(WorkoutPlanRequest request) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Application\Services\WorkoutPlanService.cs:line 44
+   at Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create(WorkoutPlanRequest request) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.API\Controllers\WorkoutPlanController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "workouts.WorkoutPlans" does not exist
+    Position: 42
+    File: parse_relation.c
+    Line: 1371
+    Routine: parserOpenTable
+[14:10:55 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36 - 500 - text/plain;+charset=utf-8 796.8658ms
+[14:11:26 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[14:11:27 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[14:11:28 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[14:11:28 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[14:11:28 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[14:11:28 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[14:11:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[14:11:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 115.5051ms
+[14:11:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[14:11:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.8960ms
+[14:11:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36
+[14:11:33 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[14:11:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[14:11:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanRequest)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[14:11:34 Microsoft.EntityFrameworkCore.Database.Command [Error] Failed executing DbCommand ("16"ms) [Parameters=["@__name_0='string'"], CommandType='Text', CommandTimeout='30']"
+""SELECT w.\"Id\", w.\"Level\", w.\"Name\"
+FROM workouts.\"WorkoutPlans\" AS w
+WHERE w.\"Name\" = @__name_0
+LIMIT 1"
+[14:11:34 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"Fitfuel.Workouts.Infrastructure.Persistence.WorkoutsDbContext"'."
+""Npgsql.PostgresException (0x80004005): 42P01: relation \"workouts.WorkoutPlans\" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation \"workouts.WorkoutPlans\" does not exist
+    Position: 42
+    File: parse_relation.c
+    Line: 1371
+    Routine: parserOpenTable"
+Npgsql.PostgresException (0x80004005): 42P01: relation "workouts.WorkoutPlans" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "workouts.WorkoutPlans" does not exist
+    Position: 42
+    File: parse_relation.c
+    Line: 1371
+    Routine: parserOpenTable
+[14:11:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 492.6457ms
+[14:11:34 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[14:11:34 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "workouts.WorkoutPlans" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|234_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Ardalis.Specification.EntityFrameworkCore.RepositoryBase`1.FirstOrDefaultAsync(ISpecification`1 specification, CancellationToken cancellationToken)
+   at Fitfuel.Workouts.Application.Services.WorkoutPlanService.CreateAsync(WorkoutPlanRequest request) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Application\Services\WorkoutPlanService.cs:line 44
+   at Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create(WorkoutPlanRequest request) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.API\Controllers\WorkoutPlanController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "workouts.WorkoutPlans" does not exist
+    Position: 42
+    File: parse_relation.c
+    Line: 1371
+    Routine: parserOpenTable
+[14:11:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36 - 500 - text/plain;+charset=utf-8 591.6981ms
+[14:14:01 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[14:14:02 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[14:14:02 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[14:14:03 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[14:14:03 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[14:14:03 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[14:14:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[14:14:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 122.9179ms
+[14:14:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[14:14:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.9263ms
+[14:14:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36
+[14:14:08 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[14:14:08 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[14:14:08 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanRequest)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[14:14:08 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[14:14:08 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 530.7043ms
+[14:14:08 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[14:14:08 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36 - 200 - application/json;+charset=utf-8 597.8417ms

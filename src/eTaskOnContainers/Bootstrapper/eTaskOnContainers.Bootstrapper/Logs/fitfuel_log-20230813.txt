@@ -1,0 +1,22 @@
+[11:49:11 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[11:49:11 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[11:49:11 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[11:49:11 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[11:49:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger - -
+[11:49:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger - - - 301 0 - 59.6023ms
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 97.6096ms
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - -
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - -
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - -
+[11:49:12 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - - - 200 144929 text/css 68.9254ms
+[11:49:12 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 76.0760ms
+[11:49:12 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 145.5871ms
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - -
+[11:49:12 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - - - 200 628 image/png 2.9813ms
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[11:49:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.8857ms

@@ -1,0 +1,590 @@
+[00:59:19 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[00:59:20 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:01:57 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:01:57 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:02:44 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:02:44 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:03:08 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:03:09 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:03:10 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:03:10 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:03:10 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:03:10 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:03:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger - -
+[01:03:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger - - - 301 0 - 69.3088ms
+[01:03:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 83.1821ms
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - -
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - -
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - -
+[01:03:11 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[01:03:11 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui.css - - - 200 144929 text/css 50.7564ms
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 50.7423ms
+[01:03:11 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 54.9077ms
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - -
+[01:03:11 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/favicon-32x32.png - - - 200 628 image/png 3.5607ms
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:03:11 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/v1/plans" for actions - Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API),Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:03:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 114.8239ms
+[01:03:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger - -
+[01:03:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger - - - 301 0 - 8.0453ms
+[01:03:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:03:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 1.9447ms
+[01:03:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:03:51 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/v1/plans" for actions - Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API),Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:03:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 7.8234ms
+[01:04:44 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:04:44 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:04:45 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:04:45 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:04:45 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:04:45 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:04:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:04:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 101.3861ms
+[01:04:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:04:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.0412ms
+[01:05:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 82
+[01:05:01 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:05:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:05:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:05:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 3.1573ms
+[01:05:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:05:01 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Fitfuel.Workouts.Application.Common.Interfaces.IWorkoutPlanService' while attempting to activate 'Fitfuel.Workouts.API.Controllers.WorkoutPlanController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method19(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:05:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 82 - 500 - text/plain;+charset=utf-8 116.6696ms
+[01:06:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger - -
+[01:06:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger - - - 301 0 - 5.4273ms
+[01:06:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:06:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 1.4285ms
+[01:06:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:06:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.6512ms
+[01:18:13 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:18:13 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:18:14 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:18:14 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:18:14 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:18:14 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:18:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:18:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 102.2853ms
+[01:18:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:18:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.2245ms
+[01:18:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:18:27 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:18:27 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:18:27 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:18:28 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:18:28 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 412.3851ms
+[01:18:28 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:18:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 409 - application/problem+json;+charset=utf-8 483.1109ms
+[01:18:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80
+[01:18:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:18:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:18:33 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:18:33 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 31.4351ms
+[01:18:33 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:18:33 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80 - 409 - application/problem+json;+charset=utf-8 45.7907ms
+[01:18:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80
+[01:18:36 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:18:36 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:18:36 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:18:36 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 6.2243ms
+[01:18:36 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:18:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80 - 409 - application/problem+json;+charset=utf-8 15.6185ms
+[01:19:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80
+[01:19:14 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:19:14 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:19:38 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:19:38 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 24113.2746ms
+[01:19:38 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:19:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80 - 409 - application/problem+json;+charset=utf-8 24124.3090ms
+[01:19:39 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80
+[01:19:39 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:19:39 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:20:04 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:20:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 24718.438ms
+[01:20:04 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:20:04 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 80 - 409 - application/problem+json;+charset=utf-8 24727.2331ms
+[01:20:39 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:20:39 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:20:40 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:20:40 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:20:40 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:20:40 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:20:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:20:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 116.9951ms
+[01:20:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:20:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.0858ms
+[01:20:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:20:45 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:20:45 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:20:45 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:21:05 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:21:05 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:21:06 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:21:06 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:21:06 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:21:06 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:21:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:21:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 105.0575ms
+[01:21:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:21:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.3249ms
+[01:21:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:21:10 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:21:10 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:21:10 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:21:23 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:21:23 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 12866.1505ms
+[01:21:23 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:21:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 409 - application/problem+json;+charset=utf-8 12926.9844ms
+[01:22:41 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:22:41 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:22:41 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:23:19 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:23:19 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 37717.6257ms
+[01:23:19 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:23:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 409 - application/problem+json;+charset=utf-8 37731.7479ms
+[01:26:23 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:26:24 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:26:25 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:26:25 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:26:25 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:26:25 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:26:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:26:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 103.9618ms
+[01:26:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:26:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5247ms
+[01:26:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:26:31 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:26:31 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:26:31 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:26:50 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:26:50 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 19715.9647ms
+[01:26:50 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:26:50 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 409 - application/problem+json;+charset=utf-8 19776.3668ms
+[01:27:20 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:27:21 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:27:21 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:27:21 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:27:21 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:27:21 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:27:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:27:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 116.8292ms
+[01:27:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:27:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.2366ms
+[01:27:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:27:25 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:27:25 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:27:25 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:27:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 4179.1743ms
+[01:27:30 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:27:30 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Identifier is not a supported format
+   at Fitfuel.Shared.Entities.Entity`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\Entity.cs:line 11
+   at Fitfuel.Shared.Entities.AggregateRoot`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\AggregateRoot.cs:line 6
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan..ctor(WorkoutPlanId id, String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 11
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan.Create(String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 25
+   at Fitfuel.Workouts.Application.Services.WorkoutPlanService.CreateWorkoutPlanAsync(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Application\Services\WorkoutPlanService.cs:line 49
+   at Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.API\Controllers\WorkoutPlanController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:27:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 500 - text/plain;+charset=utf-8 4274.4394ms
+[01:28:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:28:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:28:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:29:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 13701.2318ms
+[01:29:11 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:29:11 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Identifier is not a supported format
+   at Fitfuel.Shared.Entities.Entity`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\Entity.cs:line 11
+   at Fitfuel.Shared.Entities.AggregateRoot`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\AggregateRoot.cs:line 6
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan..ctor(WorkoutPlanId id, String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 11
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan.Create(String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 25
+   at Fitfuel.Workouts.Application.Services.WorkoutPlanService.CreateWorkoutPlanAsync(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Application\Services\WorkoutPlanService.cs:line 49
+   at Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.API\Controllers\WorkoutPlanController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:29:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 500 - text/plain;+charset=utf-8 13724.7106ms
+[01:29:23 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:29:23 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:29:24 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:29:24 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:29:24 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:29:24 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:29:24 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36
+[01:29:24 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:29:24 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:29:24 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 74.5428ms
+[01:29:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:29:28 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 3784.6924ms
+[01:29:28 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:29:28 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Identifier is not a supported format
+   at Fitfuel.Shared.Entities.Entity`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\Entity.cs:line 11
+   at Fitfuel.Shared.Entities.AggregateRoot`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\AggregateRoot.cs:line 6
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan..ctor(WorkoutPlanId id, String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 11
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan.Create(String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 25
+   at Fitfuel.Workouts.Application.Services.WorkoutPlanService.CreateWorkoutPlanAsync(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Application\Services\WorkoutPlanService.cs:line 49
+   at Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.API\Controllers\WorkoutPlanController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:29:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36 - 500 - text/plain;+charset=utf-8 3914.5980ms
+[01:29:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1380.2809ms
+[01:29:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36
+[01:29:40 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:29:40 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:29:47 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 6638.7851ms
+[01:29:47 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:29:47 Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Identifier is not a supported format
+   at Fitfuel.Shared.Entities.Entity`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\Entity.cs:line 11
+   at Fitfuel.Shared.Entities.AggregateRoot`1..ctor(TId id) in D:\workin\fork\FitFuel\Fitfuel.Server\Shared\Fitfuel.Shared\Entities\AggregateRoot.cs:line 6
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan..ctor(WorkoutPlanId id, String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 11
+   at Fitfuel.Workouts.Domain.WorkoutPlanAggregate.WorkoutPlan.Create(String name, Level level) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Domain\WorkoutPlanAggregate\WorkoutPlan.cs:line 25
+   at Fitfuel.Workouts.Application.Services.WorkoutPlanService.CreateWorkoutPlanAsync(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.Application\Services\WorkoutPlanService.cs:line 49
+   at Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create(WorkoutPlanDto dto) in D:\workin\fork\FitFuel\Fitfuel.Server\Modules\Workouts\Fitfuel.Workouts.API\Controllers\WorkoutPlanController.cs:line 21
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[01:29:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 36 - 500 - text/plain;+charset=utf-8 6659.9252ms
+[01:41:52 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:41:53 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:41:54 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:41:54 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:41:54 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:41:54 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:41:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:41:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 110.1151ms
+[01:41:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:41:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.5977ms
+[01:41:59 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:41:59 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:41:59 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:41:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:42:03 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[01:42:03 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 3654.389ms
+[01:42:03 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:42:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 200 - application/json;+charset=utf-8 3718.8194ms
+[01:42:49 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:42:50 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:42:50 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:42:50 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:42:50 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:42:50 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:42:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:42:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 114.1557ms
+[01:42:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:42:51 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.0903ms
+[01:42:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:42:56 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:42:56 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:42:56 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:42:56 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:42:56 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 313.7568ms
+[01:42:56 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:42:56 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 409 - application/problem+json;+charset=utf-8 378.1721ms
+[01:43:30 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:43:30 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:43:31 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:43:31 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:43:31 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:43:31 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:43:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:43:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 118.5593ms
+[01:43:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:43:32 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.8875ms
+[01:43:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:43:53 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:43:53 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:43:53 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:43:53 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[01:43:54 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 495.6025ms
+[01:43:54 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:43:54 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 200 - application/json;+charset=utf-8 562.3979ms
+[01:44:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plans?Name=string&Level=1&LoadChildren=false&IsPagingEnabled=true&Page=1&PageSize=10 - -
+[01:44:34 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:44:35 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[01:44:35 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 269.1129ms
+[01:44:35 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:44:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plans?Name=string&Level=1&LoadChildren=false&IsPagingEnabled=true&Page=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 289.8706ms
+[01:44:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plans?Name=string&Level=0&LoadChildren=false&IsPagingEnabled=true&Page=1&PageSize=10 - -
+[01:44:40 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:44:40 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:44:40 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[01:44:40 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 18.5488ms
+[01:44:40 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:44:40 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plans?Name=string&Level=0&LoadChildren=false&IsPagingEnabled=true&Page=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 26.9114ms
+[01:45:13 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79
+[01:45:13 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:45:13 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Update\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:45:13 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto"'.
+[01:45:13 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)" in 27.9231ms
+[01:45:13 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:45:13 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79 - 200 - application/json;+charset=utf-8 39.1528ms
+[01:46:08 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[01:46:08 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[01:46:09 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[01:46:09 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[01:46:09 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[01:46:09 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[01:46:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[01:46:09 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 106.4834ms
+[01:46:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[01:46:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.2895ms
+[01:46:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84
+[01:46:17 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[01:46:17 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:46:17 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:46:17 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[01:46:17 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 462.6068ms
+[01:46:17 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[01:46:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plans application/json 84 - 200 - application/json;+charset=utf-8 527.2435ms
+[01:46:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plans/3fa85f64-5717-4562-b3fc-2c963f66afa6 - -
+[01:46:28 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:46:28 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.Guid)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:46:29 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+[01:46:29 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 82.9439ms
+[01:46:29 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:46:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plans/3fa85f64-5717-4562-b3fc-2c963f66afa6 - - - 404 - application/problem+json;+charset=utf-8 96.4867ms
+[01:46:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plans/13c84395-0fc8-4ead-a56f-5295c43da69c - -
+[01:46:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:46:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(System.Guid)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:46:43 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto"'.
+[01:46:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 66.7015ms
+[01:46:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[01:46:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plans/13c84395-0fc8-4ead-a56f-5295c43da69c - - - 200 - application/json;+charset=utf-8 75.9793ms
+[01:46:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79
+[01:46:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:46:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Update\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:46:57 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto"'.
+[01:46:57 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)" in 19.6669ms
+[01:46:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:46:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79 - 200 - application/json;+charset=utf-8 31.5638ms
+[01:47:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79
+[01:47:03 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:47:03 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Update\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:47:03 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto"'.
+[01:47:03 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)" in 9.593ms
+[01:47:03 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:47:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79 - 200 - application/json;+charset=utf-8 17.3001ms
+[01:47:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79
+[01:47:10 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:47:10 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Update\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:47:10 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto"'.
+[01:47:10 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)" in 8.779ms
+[01:47:10 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Update (Fitfuel.Workouts.API)"'
+[01:47:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 PUT http://localhost:5138/api/v1/plans application/json 79 - 200 - application/json;+charset=utf-8 24.5955ms
+[01:47:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 DELETE http://localhost:5138/api/v1/plans/13c84395-0fc8-4ead-a56f-5295c43da69c - -
+[01:47:22 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Delete (Fitfuel.Workouts.API)"'
+[01:47:22 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Delete\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[01:47:22 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[01:47:22 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Delete (Fitfuel.Workouts.API)" in 23.0303ms
+[01:47:22 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Delete (Fitfuel.Workouts.API)"'
+[01:47:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 DELETE http://localhost:5138/api/v1/plans/13c84395-0fc8-4ead-a56f-5295c43da69c - - - 200 - application/json;+charset=utf-8 33.2638ms
+[04:23:39 MassTransit [Information] Bus started: rabbitmq://localhost/
+[04:23:39 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[04:23:40 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[04:23:44 MassTransit [Information] Bus stopped: rabbitmq://localhost/
+[04:24:40 MassTransit [Information] Bus started: rabbitmq://localhost/
+[04:24:40 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[04:24:41 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[04:24:50 MassTransit [Information] Bus started: rabbitmq://localhost/
+[04:24:50 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[04:24:51 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[04:24:52 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[04:24:52 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[04:24:52 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[04:24:52 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[04:24:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[04:24:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 118.2047ms
+[04:24:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[04:24:53 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.8286ms
+[04:25:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[04:25:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 3.2057ms
+[04:25:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[04:25:17 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2990ms
+[04:39:46 MassTransit [Information] Bus started: rabbitmq://localhost/
+[04:39:46 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[04:39:47 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[04:39:48 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[04:39:48 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[04:39:48 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[04:39:48 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[04:42:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/ - -
+[04:42:07 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[04:42:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/ - - - 404 0 - 69.8058ms
+[23:30:23 MassTransit [Information] Bus started: rabbitmq://localhost/
+[23:30:23 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[23:30:24 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[23:30:25 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[23:30:25 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:30:25 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:30:25 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[23:30:25 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[23:30:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 152.4437ms
+[23:30:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[23:30:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.6260ms
+[23:40:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[23:40:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 7.8368ms
+[23:40:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[23:40:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.6504ms
+[23:40:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plan application/json 84
+[23:40:05 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[23:40:05 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[23:40:05 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:40:05 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[23:40:05 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 609.9007ms
+[23:40:05 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[23:40:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plan application/json 84 - 200 - application/json;+charset=utf-8 689.3981ms
+[23:40:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plan application/json 79
+[23:40:11 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[23:40:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:40:11 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[23:40:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 33.6025ms
+[23:40:11 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[23:40:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plan application/json 79 - 200 - application/json;+charset=utf-8 43.7589ms
+[23:40:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=1&Level=0&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - -
+[23:40:35 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:40:35 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:40:35 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:40:35 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 246.691ms
+[23:40:35 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:40:35 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=1&Level=0&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 263.1058ms
+[23:40:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=0&Level=0&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - -
+[23:40:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:40:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:40:43 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:40:43 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 8.736ms
+[23:40:43 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:40:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=0&Level=0&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 18.3177ms
+[23:41:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=1&Level=1&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - -
+[23:41:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:41:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:41:26 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:41:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 10.5601ms
+[23:41:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:41:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=1&Level=1&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 19.8122ms
+[23:41:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=1&Level=0&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - -
+[23:41:29 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:41:29 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:41:29 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:41:29 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 6.3565ms
+[23:41:29 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:41:29 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=1&Level=0&LoadChildren=true&IsPagingEnabled=true&Page=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 14.2748ms
+[23:51:10 Fitfuel.Shared.Infrastructure.Persistence.Database.DbContextAppInitializer [Information] Running DB context: WorkoutsDbContext
+[23:51:10 Microsoft.EntityFrameworkCore.Model.Validation [Warning] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[23:51:11 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://localhost:5138"
+[23:51:11 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[23:51:11 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[23:51:11 Microsoft.Hosting.Lifetime [Information] Content root path: "D:\workin\fork\FitFuel\Fitfuel.Server\Bootstrapper\Fitfuel.Bootstrapper"
+[23:51:11 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/index.html - -
+[23:51:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/index.html - - - 200 - text/html;charset=utf-8 106.1386ms
+[23:51:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - -
+[23:51:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.7647ms
+[23:52:00 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 POST http://localhost:5138/api/v1/plan application/json 84
+[23:52:00 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[23:52:00 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[23:52:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Create\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:52:01 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Guid"'.
+[23:52:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)" in 462.1865ms
+[23:52:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Create (Fitfuel.Workouts.API)"'
+[23:52:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 POST http://localhost:5138/api/v1/plan application/json 84 - 200 - application/json;+charset=utf-8 527.9251ms
+[23:52:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=string - -
+[23:52:12 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:52:12 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:52:12 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:52:12 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 222.6983ms
+[23:52:12 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:52:12 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=string - - - 200 - application/json;+charset=utf-8 242.4108ms
+[23:52:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=string&LoadChildren=true - -
+[23:52:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:52:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"Get\", controller = \"WorkoutPlan\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanFilterDto)" on controller "Fitfuel.Workouts.API.Controllers.WorkoutPlanController" ("Fitfuel.Workouts.API").
+[23:52:26 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[FitFuel.Workouts.Contracts.WorkoutPlans.WorkoutPlanDto, FitFuel.Workouts.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[23:52:26 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)" in 13.0438ms
+[23:52:26 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Fitfuel.Workouts.API.Controllers.WorkoutPlanController.Get (Fitfuel.Workouts.API)"'
+[23:52:26 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished HTTP/1.1 GET http://localhost:5138/api/v1/plan?Name=string&LoadChildren=true - - - 200 - application/json;+charset=utf-8 23.0530ms
